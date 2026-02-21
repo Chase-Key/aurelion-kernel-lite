@@ -1,0 +1,86 @@
+File Name,Lines,Size KB,Classification,Destination,Sanitization Needed,Priority,Notes
+01_Career_Master.md,589,40.67,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,HIGH,Remove CK's specific goals/examples; create blank template
+02_Skills_Inventory.md,490,29.50,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,HIGH,Remove CK's skills; create blank template
+03_Daily_Operations_Playbook.md,418,21.40,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,MEDIUM,Remove LexisNexis-specific operations
+04_Analyst_Workload_Reference.md,265,17.58,🔴 PRIVATE ONLY,Advisor-Business (Private),Yes,HIGH,Elite tool - remove team names/LexisNexis; PRIVATE REPO ONLY
+05_Out_of_Scope_Leadership.md,299,20.27,🔴 REMOVE,EXCLUDE,N/A,LOW,Work-specific content; not packageable
+06_Project_Investigation_Template.md,187,7.75,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,HIGH,Good template structure; remove specific examples
+07_TX_Waller_Research_Case.md,196,11.20,🟡 NEEDS ANONYMIZATION,Advisor-Personal (example),Yes,MEDIUM,Convert to fictional case study (Project Alpha)
+08_NC_Data_Anomaly_Project.md,2162,131.77,🟡 NEEDS ANONYMIZATION,Advisor-Personal (example),Yes,MEDIUM,Large file - extract template only; anonymize example
+09_QA_Standards.md,266,14.39,🔴 PRIVATE ONLY,Advisor-Business (Private),Yes,HIGH,Elite QA tool - remove LexisNexis metrics; PRIVATE REPO ONLY
+10_Glossary.md,273,12.47,🔴 REMOVE,EXCLUDE,N/A,LOW,Company-specific terminology; not packageable
+11_Transmittal_Standards.md,291,12.19,🔴 REMOVE,EXCLUDE,N/A,LOW,LexisNexis-specific; not packageable
+12_Leadership_Development.md,234,13.36,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,LOW,Extract generic leadership framework
+13_SOP_Library.md,284,11.63,🔴 REMOVE,EXCLUDE,N/A,LOW,Company SOPs; not packageable
+14_Hub_Usage_Implementation_Guide.md,273,16.88,🟢 SAFE,Advisor-Personal,Minimal,MEDIUM,Generic implementation guide; minimal edits
+15_State_Research_Scaling_Guide.md,370,17.73,🟡 NEEDS ANONYMIZATION,Advisor-Personal (example),Yes,LOW,Extract template; remove work examples
+18_Organizational_Network_Map.md,461,25.97,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,MEDIUM,Good template - remove CK's network; create blank
+19_Personal_Model_Vision.md,439,20.08,🟢 SAFE,Advisor-Personal,Minimal,HIGH,Vision document; mostly generic; verify proper nouns
+20_Session_Management_Continuation_Guide.md,600,29.44,🟢 SAFE,Agent-Personal,Minimal,HIGH,Session management framework; generic; check for names
+21_Professional_Background_Story.md,181,10.46,🔴 REMOVE,EXCLUDE,N/A,LOW,CK's personal story; not packageable
+22_Home_Computer_Setup_Guide.md,333,15.07,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal setup; not relevant
+23_Data_Security_Compliance_Guidelines.md,353,13.85,🔴 REMOVE,EXCLUDE,N/A,LOW,Company-specific compliance; not packageable
+24_Strategic_Advisor_Protocol.md,1076,49.25,🟢 SAFE,Agent-Personal,Minimal,HIGH,AI interaction protocol; mostly generic; verify
+25_State_Research_Template.md,175,6.73,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,MEDIUM,Good template - remove state-specific examples
+26_Investigation_Decision_Tree.md,278,12.79,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,HIGH,Decision tree framework; remove work examples
+27_Training_Curriculum_Peer_to_Peer.md,289,12.61,🔴 REMOVE,EXCLUDE,N/A,LOW,Work training; not packageable
+28_Chase_Key_Workload_Analysis.md,313,13.25,🔴 PRIVATE ONLY,Advisor-Business (Private),Yes,HIGH,$200K optimization framework; PRIVATE REPO ONLY
+29_UTCJDF_Mandatory_Refresh_Process.md,103,4.93,🔴 REMOVE,EXCLUDE,N/A,LOW,LexisNexis-specific process; not packageable
+30_Data_Governance_Security_Framework.md,466,23.89,🔴 REMOVE,EXCLUDE,N/A,LOW,Company governance; not packageable
+31_AI_Agent_Interaction_Protocol.md,514,20.74,🟢 SAFE,Agent-Personal,Minimal,HIGH,Core AI protocol; mostly generic; verify
+32_Compass_Personality_Framework.md,217,14.41,🔴 REMOVE,EXCLUDE,N/A,LOW,Rell's personality (Book_Project); not packageable
+32_Personal_Engine_Framework_Guide.md,649,29.87,🟢 SAFE,Advisor-Personal,Minimal,HIGH,Personal framework guide; mostly generic
+33_Knowledge_Submission_System.md,234,9.93,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,LOW,Generic template; remove work examples
+34_Strategic_Response_Plan_Josefina.md,338,15.35,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal/work-specific; not packageable
+35_RELX_Enterprise_Scaling_Strategy.md,481,26.73,🔴 REMOVE,EXCLUDE,N/A,LOW,RELX-specific; confidential; not packageable
+36_Memoria_Engine_Complete_Project_Summary.md,281,14.31,🟡 NEEDS ANONYMIZATION,Nexus-Premium ONLY,Yes,MEDIUM,Memoria belongs in Nexus-Premium; sanitize examples
+36A_Memoria_Technical_Implementation.md,833,28.64,🟡 NEEDS ANONYMIZATION,Nexus-Premium ONLY,Yes,MEDIUM,Technical implementation; remove work examples
+36B_Memoria_Lessons_Learned_Feb2026.md,371,15.63,🟢 SAFE,Nexus-Premium,Minimal,LOW,Lessons learned; mostly generic
+AAI_BUILD_COMPLETE_Feb14_2026.md,219,10.54,🟢 SAFE,Advisor-Personal,Minimal,MEDIUM,Build log; generic structure
+AAI_FLOOR_MAPPING.md,313,17.29,🟢 SAFE,Advisor-Personal,Minimal,HIGH,5-floor architecture; core framework
+AAI_KNOWLEDGE_GRAPH.json,341,17.99,🟡 NEEDS ANONYMIZATION,Advisor-Personal (example),Yes,MEDIUM,Example graph; replace with fictional data
+AAI_LIBRARY_SYSTEM.py,413,18.44,🟢 SAFE,Advisor-Personal,Minimal,MEDIUM,Python code; verify no hardcoded paths
+AAI_MASTER_ARCHITECTURE.md,234,11.27,🟢 SAFE,Advisor-Personal,Minimal,HIGH,Core AAI architecture; mostly generic
+AAI_MASTER_LEDGER.md,254,14.16,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,MEDIUM,Ledger structure; remove CK's entries
+AI_Context_Limitations.md,315,15.38,🟢 SAFE,Agent-Personal,Minimal,MEDIUM,AI limitations guide; generic
+AI_Prompt_Library.md,570,18.82,🟡 NEEDS ANONYMIZATION,Agent-Personal,Yes,HIGH,850+ prompts - curate 100 best; remove work-specific
+ANONYMIZATION_RULES.md,287,14.70,🟢 SAFE,REFERENCE,No,LOW,Already thinking about anonymization; useful reference
+AURELION_S_EXTRACTION_STRATEGY.md,251,11.49,🟢 SAFE,REFERENCE,No,LOW,Extraction strategy document; reference only
+CAREER_ADVICE_6Month_Exit_Strategy.md,154,10.33,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal career advice; not packageable
+Chase.Key.da (1).pdf,1503,99.90,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal document; not packageable
+COMPLETE_SESSION_SUMMARY_JAN31_2026.md,172,9.72,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+COMPLIANCE_CLEANSE_REPORT.md,143,6.78,🔴 REMOVE,EXCLUDE,N/A,LOW,Compliance report; not packageable
+Copilot_Best_Practices.md,585,24.80,🟢 SAFE,Agent-Personal,Minimal,MEDIUM,Copilot best practices; generic
+DATA_CLEANSING_AUDIT.md,107,5.45,🔴 REMOVE,EXCLUDE,N/A,LOW,Audit report; not packageable
+DOCUMENTATION_COMPLETE_SUMMARY.md,218,9.19,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+DOCUMENTATION_STRATEGY_SUMMARY.md,208,9.76,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+ENGINE_CLEANSE_COMPLETE.md,63,2.56,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+EXAMPLE_Spouse_Personality_Framework.md,79,4.62,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal spouse framework; not packageable
+EXTRACT_AURELION_FRAMEWORKS.ps1,1243,47.30,🟢 SAFE,REFERENCE,No,LOW,PowerShell script; reference for extraction
+EXTRACT_AURELION_S.ps1,1340,49.51,🟢 SAFE,REFERENCE,No,LOW,PowerShell script; reference for extraction
+GEN_AI_ENGINEER_GAP_ANALYSIS.md,243,14.08,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal career gap analysis; not packageable
+HANDOFF_SUMMARY.md,43,3.10,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+infocard.md,220,11.09,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+Monthly_Wins_Log.md,419,27.02,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal wins log; not packageable
+PERSONAL_INTEGRATION_MASTER_INDEX.md,155,8.19,🔴 REMOVE,EXCLUDE,N/A,LOW,Personal index; not packageable
+PERSONAL_ONLY_PACKAGE.md,38,1.45,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+personal_only_package.zip,2609,333.59,🔴 REMOVE,EXCLUDE,N/A,LOW,Packaged archive; not needed
+PERSONALITY_FRAMEWORK_SYNTHESIS.md,166,10.65,🔴 REMOVE,EXCLUDE,N/A,LOW,Rell's personality synthesis; not packageable
+Pilot_Proposal_One_Page_Blended.md,78,3.57,🔴 REMOVE,EXCLUDE,N/A,LOW,Work proposal; not packageable
+Pilot_Proposal_One_Page_Business.md,61,2.04,🔴 REMOVE,EXCLUDE,N/A,LOW,Work proposal; not packageable
+Pilot_Proposal_One_Page_Casual.md,42,1.38,🔴 REMOVE,EXCLUDE,N/A,LOW,Work proposal; not packageable
+Pilot_Proposal_One_Page.md,68,2.71,🔴 REMOVE,EXCLUDE,N/A,LOW,Work proposal; not packageable
+SESSION_COMPLETE_EVERYTHING_DOCUMENTED.md,246,10.06,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+Session_Notes_Jan27_2026_Evening.md,161,10.42,🔴 REMOVE,EXCLUDE,N/A,LOW,Session notes; not packageable
+Session_Progress_Tracker.md,591,34.60,🔴 REMOVE,EXCLUDE,N/A,LOW,Session tracker; not packageable
+SESSION_SUMMARY_FEB2_2026.md,124,8.42,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+START_HERE_DOCUMENTATION.md,218,8.76,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+START_HERE_SECURITY_UPGRADE_JAN31.md,133,5.55,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+YOUR_DOCUMENTATION_MAP.md,269,15.51,🔴 REMOVE,EXCLUDE,N/A,LOW,Session history; not packageable
+Book_Project/ (FOLDER),39 files,594.33,🔴 EXCLUDE ENTIRELY,EXCLUDE,N/A,CRITICAL,CK's personal creative work - NEVER include
+Phone/ (FOLDER),16 files,520.73,🔴 EXCLUDE ENTIRELY,EXCLUDE,N/A,MEDIUM,Personal notes - not packageable
+keycd_deliverable/ (FOLDER),37 files,402.31,🔴 EXCLUDE ENTIRELY,EXCLUDE,N/A,MEDIUM,Work deliverable - not packageable
+.secure/ (FOLDER),4 files,22.11,🔴 EXCLUDE ENTIRELY,EXCLUDE,N/A,CRITICAL,Secure files - confidential
+00_Hub_Index.md,203,23.86,🟡 NEEDS ANONYMIZATION,Advisor-Personal,Yes,HIGH,Hub structure - remove CK's content; create blank template
+16_Engine_Executive_Overview.md,370,22.35,🟢 SAFE,Advisor-Personal,Minimal,HIGH,Executive overview; mostly generic architecture
+17_Engine_Onboarding_Wizard.md,418,18.03,🟢 SAFE,Advisor-Personal,Minimal,MEDIUM,Onboarding guide; generic process
