@@ -32,6 +32,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=Path(__file__).parent / ".env")
 
 from fastapi import Depends, FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from gate import DemoGate, handle_login, login_page, _COOKIE
@@ -44,9 +45,31 @@ from registry import get_agent, list_agents
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="AgentOps Console", version="0.1.0")
+_SERVICE_VERSION = "0.1.0"
+
+app = FastAPI(title="AgentOps Console", version=_SERVICE_VERSION)
 app.add_middleware(DemoGate)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET"],
+    allow_headers=["*"],
+)
 app.mount("/static", StaticFiles(directory="static"), name="static")
+
+
+# ---------------------------------------------------------------------------
+# Health
+# ---------------------------------------------------------------------------
+
+@app.get("/health")
+async def health():
+    return {
+        "status": "ok",
+        "service": "agentops-console",
+        "version": _SERVICE_VERSION,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
 
 
 # ---------------------------------------------------------------------------
