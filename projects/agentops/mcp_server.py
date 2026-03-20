@@ -57,6 +57,11 @@ load_dotenv(dotenv_path=_HERE / ".env")
 # ---------------------------------------------------------------------------
 from mcp.server.fastmcp import FastMCP  # noqa: E402
 
+# Ensure all tables exist (same as main.py does on startup)
+from database import Base, engine  # noqa: E402
+
+Base.metadata.create_all(bind=engine)
+
 mcp = FastMCP(
     "agentops",
     instructions=(
