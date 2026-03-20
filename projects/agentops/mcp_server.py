@@ -159,15 +159,19 @@ def run_agent(agent: str, message: str) -> str:
             trace_json=trace.model_dump_json(),
         )
         db.add(record)
-        # Auto-save to memory
-        mem = MemoryRecord(
-            agent_name=trace.agent_name,
-            content=f"Q: {message[:150]} | A: {(trace.last_response or '')[:300]}",
-            tags=f"conversation,{trace.agent_name},mcp",
-            source_run_id=run_id,
-        )
-        db.add(mem)
-        db.commit()
+        db.commit()  # commit run first — this always succeeds
+        # Auto-save to memory — separate transaction, non-fatal
+        try:
+            mem = MemoryRecord(
+                agent_name=trace.agent_name,
+                content=f"Q: {message[:150]} | A: {(trace.last_response or '')[:300]}",
+                tags=f"conversation,{trace.agent_name},mcp",
+                source_run_id=run_id,
+            )
+            db.add(mem)
+            db.commit()
+        except Exception:
+            db.rollback()
     finally:
         db.close()
 
